@@ -17,13 +17,13 @@ BitOps is the prototype tool developed for the research *"BitOps: A Concolic-Bas
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/LeHoaiNam756/Bitops.git
+git clone https://github.com/Clakulis/Bitops.git
 cd Bitops
 ```
 
 ### Step 2: Configure the Project Root Path
 
-Open `src/main/java/core/utils/FilePath.java` and update the `JCIA_PROJECT_ROOT_PATH` constant to the absolute path where you cloned the project on your machine:
+Open `src/main/java/core/utils/FilePath.java` and update the `BITOPS_PROJECT_ROOT_PATH` constant to the absolute path where you cloned the project on your machine:
 
 ```java
 public static final String JCIA_PROJECT_ROOT_PATH = "C:\\path\\to\\Bitops";
@@ -69,4 +69,4 @@ Open `src/main/java/Main.java` in your IDE and run the `main` method. The JavaFX
 4. Click **Run** to start concolic test generation.
    ![Step 4: Run test generation](./assets/step4.png)
 5. View the generated test inputs, coverage results, and execution output in the report table.
-6. ![Step 5: View the results](./assets/step5.png)
+  ![Step 5: View the results](./assets/step5.png)
