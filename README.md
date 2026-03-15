@@ -1,6 +1,6 @@
-# BitOps: A Concolic-Based Test Input Generation Method for Units with Bit Operators of Java Projects
+# BitOps: A BitVector-Based Concolic Testing Method for Java Units with Bitwise Operators
 
-BitOps is the prototype tool developed for the research *"BitOps: A Concolic-Based Test Input Generation Method for Units with Bit Operators of Java Projects"*. It implements concolic (concrete + symbolic) execution with dedicated support for bitwise and shift operators (`&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`), addressing a common gap in existing concolic testing tools by encoding bitwise semantics as Z3 BitVector constraints. This enables accurate path exploration and complete test input generation for Java units that involve bit operators, across multiple coverage criteria (Statement, Branch, MC/DC), via a JavaFX-based GUI.
+BitOps is the prototype tool developed for the research *"BitOps: A BitVector-Based Concolic Testing Method for Java Units with Bitwise Operators"*. It implements concolic (concrete + symbolic) execution with dedicated support for bitwise and shift operators (`&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`), addressing a common gap in existing concolic testing tools by encoding bitwise semantics as Z3 BitVector constraints. This enables accurate path exploration and complete test input generation for Java units that involve bit operators, across multiple coverage criteria (Statement, Branch, MC/DC), via a JavaFX-based GUI.
 
 ---
 
